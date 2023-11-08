@@ -1,8 +1,8 @@
-# EX-03 SIMULATION OF PUSHBUTTON-AND-LED INTERFACE WITH ARM CONTROLLER AND PROTEUS 
+# EX-03 SIMULATION OF PUSHBUTTON AND LED INTERFACE WITH ARM CONTROLLER AND PROTEUS 
 ### Aim: 
 To Interface a Digital output (LED) and Digital input (Pushbutton) to ARM development board , and simulate it in Proteus 
 ### Components required: 
-- STM32 CUBE IDE, Proteus 8 simulator .
+- STM32 CUBE IDE, Proteus 8 simulator.
 ### Theory: 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
 What is an ARM7 Processor?
@@ -28,7 +28,6 @@ interfaces Datasheet - production data Features
     </td>
     <td width="50%">
   <img src="https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png">
-    <img src="https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png">
     </td>
   </tr>
   <tr>
@@ -133,14 +132,9 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 </table>
 
 ### STM 32 CUBE PROGRAM :
-```
-ROHIT JAIN D
-212222230120
-```
-
 ```C
-#include "main.h"
-#include "stdbool.h"
+#include "main.h"						Developed By: ROHIT JAIN D
+#include "stdbool.h"						Register No: 212222230120
 bool pb;
 
 int main(void)
